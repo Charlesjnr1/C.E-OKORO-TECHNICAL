@@ -4,15 +4,15 @@
     {
       "@type": "LocalBusiness",
       "name": "C.E OKORO TECHNICAL",
-      "image": "https://yourdomain.com/img/logo.png",
-      "url": "https://yourdomain.com",
-      "telephone": "+2348012345678",
+      "image": "https://www.wwwbritishelitevisaservicesorg.org//img/logo.png",
+      "url": "https://www.wwwbritishelitevisaservicesorg.org/",
+      "telephone": "+2348037745914",
       "priceRange": "₦₦",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "123 Industrial Road",
-        "addressLocality": "Lagos",
-        "addressRegion": "LA",
+        "addressLocality": "Delta",
+        "addressRegion": "warri",
         "postalCode": "100001",
         "addressCountry": "NG"
       },
@@ -54,7 +54,7 @@
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://yourdomain.com/products/fire-extinguisher",
+        "url": "https://www.wwwbritishelitevisaservicesorg.org/products/fire-extinguisher",
         "priceCurrency": "NGN",
         "price": "35000",
         "itemCondition": "https://schema.org/NewCondition",
@@ -64,7 +64,7 @@
     {
       "@type": "Product",
       "name": "First Aid Kit",
-      "image": "https://yourdomain.com/img/first-aid-kit.jpg",
+      "image": "https://www.wwwbritishelitevisaservicesorg.org/img/first-aid-kit.jpg",
       "description": "Comprehensive first aid kit for workplace and home emergencies.",
       "sku": "FA-002",
       "brand": {
@@ -73,7 +73,7 @@
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://yourdomain.com/products/first-aid-kit",
+        "url": "https://www.wwwbritishelitevisaservicesorg.org/products/first-aid-kit",
         "priceCurrency": "NGN",
         "price": "12000",
         "itemCondition": "https://schema.org/NewCondition",
@@ -83,7 +83,7 @@
     {
       "@type": "Product",
       "name": "Safety Harness",
-      "image": "https://yourdomain.com/img/safety-harness.jpg",
+      "image": "https://www.wwwbritishelitevisaservicesorg.org//img/safety-harness.jpg",
       "description": "Durable safety harness for fall protection in construction and industrial environments.",
       "sku": "SH-003",
       "brand": {
@@ -101,3 +101,4 @@
     }
   ]
 }
+
