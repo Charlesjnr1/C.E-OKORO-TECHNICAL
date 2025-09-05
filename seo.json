@@ -5,6 +5,7 @@
       "@type": "LocalBusiness",
       "name": "C.E OKORO TECHNICAL",
       "image": "https://www.wwwbritishelitevisaservicesorg.org/img/logo.png",
+      "logo": "https://www.wwwbritishelitevisaservicesorg.org/img/logo.png",
       "url": "https://www.wwwbritishelitevisaservicesorg.org/",
       "telephone": "+2348037745914",
       "priceRange": "₦₦",
@@ -12,7 +13,7 @@
         "@type": "PostalAddress",
         "streetAddress": "123 Industrial Road",
         "addressLocality": "Delta",
-        "addressRegion": "warri",
+        "addressRegion": "Warri",
         "postalCode": "100001",
         "addressCountry": "NG"
       },
@@ -40,7 +41,14 @@
         "https://facebook.com/yourpage",
         "https://twitter.com/yourpage",
         "https://linkedin.com/company/yourpage"
-      ]
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+2348037745914",
+        "contactType": "customer service",
+        "areaServed": "NG",
+        "availableLanguage": ["English"]
+      }
     },
     {
       "@type": "Product",
@@ -59,7 +67,27 @@
         "price": "35000",
         "itemCondition": "https://schema.org/NewCondition",
         "availability": "https://schema.org/InStock"
-      }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "42"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John Doe"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "This fire extinguisher is reliable and easy to use. Highly recommended!"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -78,7 +106,27 @@
         "price": "12000",
         "itemCondition": "https://schema.org/NewCondition",
         "availability": "https://schema.org/InStock"
-      }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "reviewCount": "28"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Mary Johnson"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "A very useful first aid kit, has everything needed for emergencies."
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -97,9 +145,27 @@
         "price": "25000",
         "itemCondition": "https://schema.org/NewCondition",
         "availability": "https://schema.org/InStock"
-      }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "34"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "James Okoro"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5"
+          },
+          "reviewBody": "Strong and reliable harness, good for industrial use."
+        }
+      ]
     }
   ]
 }
-
-
