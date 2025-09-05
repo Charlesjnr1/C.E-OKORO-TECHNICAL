@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "C.E OKORO TECHNICAL",
+      "image": "https://yourdomain.com/img/logo.png",
+      "url": "https://yourdomain.com",
+      "telephone": "+2348012345678",
+      "priceRange": "₦₦",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Industrial Road",
+        "addressLocality": "Lagos",
+        "addressRegion": "LA",
+        "postalCode": "100001",
+        "addressCountry": "NG"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "6.5244",
+        "longitude": "3.3792"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ],
+      "sameAs": [
+        "https://facebook.com/yourpage",
+        "https://twitter.com/yourpage",
+        "https://linkedin.com/company/yourpage"
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "Fire Extinguisher",
+      "image": "https://yourdomain.com/img/fire-extinguisher.jpg",
+      "description": "High-quality fire extinguisher suitable for homes, offices, and industrial use.",
+      "sku": "FE-001",
+      "brand": {
+        "@type": "Brand",
+        "name": "C.E OKORO TECHNICAL"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://yourdomain.com/products/fire-extinguisher",
+        "priceCurrency": "NGN",
+        "price": "35000",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "First Aid Kit",
+      "image": "https://yourdomain.com/img/first-aid-kit.jpg",
+      "description": "Comprehensive first aid kit for workplace and home emergencies.",
+      "sku": "FA-002",
+      "brand": {
+        "@type": "Brand",
+        "name": "C.E OKORO TECHNICAL"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://yourdomain.com/products/first-aid-kit",
+        "priceCurrency": "NGN",
+        "price": "12000",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Safety Harness",
+      "image": "https://yourdomain.com/img/safety-harness.jpg",
+      "description": "Durable safety harness for fall protection in construction and industrial environments.",
+      "sku": "SH-003",
+      "brand": {
+        "@type": "Brand",
+        "name": "C.E OKORO TECHNICAL"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://yourdomain.com/products/safety-harness",
+        "priceCurrency": "NGN",
+        "price": "25000",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ]
+}
