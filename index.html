@@ -1441,9 +1441,19 @@
       }, 600); // match transition time
     });
   </script>
+  <script>
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    hamburger.classList.toggle("open");
+  });
+</script>
 </body>
 
 </html>
+
 
 
 
