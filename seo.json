@@ -4,7 +4,7 @@
     {
       "@type": "LocalBusiness",
       "name": "C.E OKORO TECHNICAL",
-      "image": "https://www.wwwbritishelitevisaservicesorg.org//img/logo.png",
+      "image": "https://www.wwwbritishelitevisaservicesorg.org/img/logo.png",
       "url": "https://www.wwwbritishelitevisaservicesorg.org/",
       "telephone": "+2348037745914",
       "priceRange": "₦₦",
@@ -45,7 +45,7 @@
     {
       "@type": "Product",
       "name": "Fire Extinguisher",
-      "image": "https://yourdomain.com/img/fire-extinguisher.jpg",
+      "image": "https://www.wwwbritishelitevisaservicesorg.org/img/fire-extinguisher.jpg",
       "description": "High-quality fire extinguisher suitable for homes, offices, and industrial use.",
       "sku": "FE-001",
       "brand": {
@@ -83,7 +83,7 @@
     {
       "@type": "Product",
       "name": "Safety Harness",
-      "image": "https://www.wwwbritishelitevisaservicesorg.org//img/safety-harness.jpg",
+      "image": "https://www.wwwbritishelitevisaservicesorg.org/img/safety-harness.jpg",
       "description": "Durable safety harness for fall protection in construction and industrial environments.",
       "sku": "SH-003",
       "brand": {
@@ -92,7 +92,7 @@
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://yourdomain.com/products/safety-harness",
+        "url": "https://www.wwwbritishelitevisaservicesorg.org/products/safety-harness",
         "priceCurrency": "NGN",
         "price": "25000",
         "itemCondition": "https://schema.org/NewCondition",
@@ -101,4 +101,5 @@
     }
   ]
 }
+
 
