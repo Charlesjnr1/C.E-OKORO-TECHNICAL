@@ -155,7 +155,7 @@
     /* Hero Section */
     .hero {
       padding: 8rem 0 5rem;
-      background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1584697964358-3e14ca57658b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80') no-repeat center center/cover;
+      background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('img/ban.webp') no-repeat center center/cover;
       color: white;
       text-align: center;
     }
@@ -872,15 +872,15 @@
       <div class="container">
         <nav class="navbar">
           <div class="logo">
-            <i class="fas fa-industry" style="font-size:40px; color:#333;"></i>
+            <img src="img/lolo.jpg"  style="height:60px; width:auto;">
           </div>
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="About.html">About</a></li>
             <li><a href="#products">Products</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
           <div class="hamburger">
             <i class="fas fa-bars"></i>
@@ -898,25 +898,7 @@
       </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-      <div class="container">
-        <div class="section-title">
-          <h2>About Us</h2>
-        </div>
-        <div class="about-content">
-          <div class="about-text">
-            <h3>Quality Safety Solutions</h3>
-            <p>At C.E OKORO TECHNICAL, we've been providing top-tier safety products to businesses and individuals for over a decade. Our commitment to quality and customer satisfaction has made us a trusted name in the industry.</p>
-            <p>We understand that safety is not just about compliance—it's about protecting what matters most. That's why we carefully select every product in our inventory to ensure it meets the highest standards of protection and durability.</p>
-            <p>Our team of safety experts is always available to help you find the right solutions for your specific needs, whether you're equipping a large construction site or looking for personal protective equipment.</p>
-          </div>
-          <div class="about-image">
-            <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Safety Equipment at C.E OKORO TECHNICAL">
-          </div>
-        </div>
-      </div>
-    </section>
+   
 
     <!-- Products Section -->
     <section class="products" id="products">
@@ -1191,25 +1173,30 @@
           </div>
           <div class="contact-form">
             <h3>Send Us a Message</h3>
-            <form id="contactForm">
-              <div class="form-group">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" class="form-control" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Your Email</label>
-                <input type="email" id="email" class="form-control" required>
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="message">Your Message</label>
-                <textarea id="message" class="form-control" required></textarea>
-              </div>
-              <button type="submit" class="btn">Send Message</button>
-            </form>
+            <form action="https://formsubmit.co/okorocharles0001@gmail.com" method="POST">
+    <div class="control-group">
+        <input type="text" class="form-control" name="name" placeholder="Your Name" required />
+    </div>
+    <div class="control-group">
+        <input type="email" class="form-control" name="email" placeholder="Your Email" required />
+    </div>
+    <div class="control-group">
+        <input type="text" class="form-control" name="subject" placeholder="Subject" required />
+    </div>
+    <div class="control-group">
+        <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+    </div>
+
+    <!-- Hidden fields -->
+    <input type="hidden" name="_captcha" value="false"> <!-- disable captcha -->
+    <input type="hidden" name="_template" value="table"> <!-- prettier email layout -->
+    <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> <!-- redirect after submit -->
+
+    <div>
+        <button class="btn" type="submit">Send Message</button>
+    </div>
+</form>
+
           </div>
         </div>
       </div>
@@ -1220,8 +1207,8 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-column">
-            <h3>C.E OKORO TECHNICAL</h3>
-            <p>Your trusted partner for all safety equipment needs. Quality products and expert advice since 2008.</p>
+            <h3>C.E TECHNICAL</h3>
+            <p>Your trusted partner for all safety equipment needs. Quality products and expert advice since 1996.</p>
           </div>
           <div class="footer-column">
             <h3>Quick Links</h3>
@@ -1245,7 +1232,7 @@
           </div>
         </div>
         <div class="copyright">
-          <p>&copy; 2023 C.E OKORO TECHNICAL. All rights reserved. | Made by Charles Jnr</p>
+          <p>&copy; 2023 C.E TECHNICAL. All rights reserved. | Made by Charles Jnr</p>
         </div>
       </div>
     </footer>
@@ -1448,6 +1435,30 @@
     hamburger.classList.toggle("open");
   });
 </script>
+<script>
+  // Get buttons and product cards
+  const categoryBtns = document.querySelectorAll('.category-btn');
+  const productCards = document.querySelectorAll('.product-card');
+
+  categoryBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Remove "active" from all buttons
+      categoryBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const category = btn.getAttribute('data-category');
+
+      productCards.forEach(card => {
+        // Show all if "all" is selected
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+
 </body>
 </html>
-
