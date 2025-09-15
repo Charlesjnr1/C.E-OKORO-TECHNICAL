@@ -4,9 +4,9 @@
     {
       "@type": "LocalBusiness",
       "name": "C.E OKORO TECHNICAL",
-      "image": "https://www.wwwbritishelitevisaservicesorg.org/img/logo.png",
-      "logo": "https://www.wwwbritishelitevisaservicesorg.org/img/logo.png",
-      "url": "https://www.wwwbritishelitevisaservicesorg.org/",
+      "image": "https://www.ce-technical.com.ng//img/logo.png",
+      "logo": "https://www.ce-technical.com.ng//img/logo.png",
+      "url": "https://www.ce-technical.com.ng/",
       "telephone": "+2348037745914",
       "priceRange": "₦₦",
       "address": {
@@ -53,7 +53,7 @@
     {
       "@type": "Product",
       "name": "Fire Extinguisher",
-      "image": "https://www.wwwbritishelitevisaservicesorg.org/img/fire-extinguisher.jpg",
+      "image": "https://www.ce-technical.com.ng//img/fire-extinguisher.jpg",
       "description": "High-quality fire extinguisher suitable for homes, offices, and industrial use.",
       "sku": "FE-001",
       "brand": {
@@ -62,7 +62,7 @@
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://www.wwwbritishelitevisaservicesorg.org/products/fire-extinguisher",
+        "url": "https://www.ce-technical.com.ng//products/fire-extinguisher",
         "priceCurrency": "NGN",
         "price": "35000",
         "itemCondition": "https://schema.org/NewCondition",
@@ -92,7 +92,7 @@
     {
       "@type": "Product",
       "name": "First Aid Kit",
-      "image": "https://www.wwwbritishelitevisaservicesorg.org/img/first-aid-kit.jpg",
+      "image": "https://www.ce-technical.com.ng//img/first-aid-kit.jpg",
       "description": "Comprehensive first aid kit for workplace and home emergencies.",
       "sku": "FA-002",
       "brand": {
@@ -101,7 +101,7 @@
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://www.wwwbritishelitevisaservicesorg.org/products/first-aid-kit",
+        "url": "https://www.ce-technical.com.ng//products/first-aid-kit",
         "priceCurrency": "NGN",
         "price": "12000",
         "itemCondition": "https://schema.org/NewCondition",
@@ -131,7 +131,7 @@
     {
       "@type": "Product",
       "name": "Safety Harness",
-      "image": "https://www.wwwbritishelitevisaservicesorg.org/img/safety-harness.jpg",
+      "image": "https://www.ce-technical.com.ng//img/safety-harness.jpg",
       "description": "Durable safety harness for fall protection in construction and industrial environments.",
       "sku": "SH-003",
       "brand": {
@@ -140,7 +140,7 @@
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://www.wwwbritishelitevisaservicesorg.org/products/safety-harness",
+        "url": "https://www.ce-technical.com.ng//products/safety-harness",
         "priceCurrency": "NGN",
         "price": "25000",
         "itemCondition": "https://schema.org/NewCondition",
@@ -169,3 +169,4 @@
     }
   ]
 }
+
